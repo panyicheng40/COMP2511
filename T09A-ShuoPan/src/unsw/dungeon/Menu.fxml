@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="767.0" style="-fx-background-image: url('unnamed1.jpg');" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="instructionbutton" layoutX="290.0" layoutY="279.0" mnemonicParsing="false" onAction="#gotoInstruction" prefHeight="38.0" prefWidth="132.0" text="Instruction" />
+      <Button fx:id="startbutton" layoutX="283.0" layoutY="365.0" mnemonicParsing="false" onAction="#startGame" prefHeight="88.0" prefWidth="146.0" text="Start Game" />
+      <Label layoutX="243.0" layoutY="68.0" prefHeight="88.0" prefWidth="227.0" text="Dungeon" textAlignment="CENTER" textFill="#cd1a1a">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
